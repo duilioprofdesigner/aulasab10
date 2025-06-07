@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulário</title>
+</head>
+
+<body>
+<form><fieldset><legend>Informações Principais</legend>
+	  <label>Nome completo:<br></label>
+		<input type="text" required="required" placeholder="digite nome completo" size="80" maxlength="60">
+	  <br><label>E-mail:<br></label>
+	  <input type="email" required="required" placeholder="email@servidor.com" size="40" maxlength="30">
+		<br>
+	  <label>Senha:<br></label>
+		<input type="password" required="required" placeholder="***" size="6" maxlength="15">
+		<br>
+	  <label>Celular:<br></label>
+		<input type="text" required="required" placeholder="(DD 90000 0000" size="14" maxlength="15">
+		<br>
+	  <label>Mensagem:<br></label>
+		<textarea cols="80" rows="5" placeholder="digite seu texto..."></textarea>
+		<br>
+		<label>O que gosta de fazer:<br></label>
+		<input type="checkbox">Ver Anime
+		<br>
+		<input type="checkbox">Cozinhar
+		<br>
+		<input type="checkbox">Ler livros
+		<br>
+		<input type="checkbox">Estudar
+		<br>
+		<label>Sexo:</label>
+		<br>
+		<input name="sx" type="radio">Masculino
+		<input name="sx" type="radio">Feminino
+	<br>
+	<label>Cidade-UF:</label><input type="text" placeholder="digite sua cidade" size="60" maxlength="60"> - <select>
+	  <option>SP</option>
+	  <option>RJ</option>
+	  <option>MG</option>
+	</select>
+	<br><br><br>
+	<input type="submit" formaction="confirma.html" value="Cadastrar"> <input type="reset" value="Cancelar" formaction="inicio.html">
+			<br><br>
+			
+	</fieldset></form>
+</body>
+</html>
